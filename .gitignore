@@ -1,0 +1,13 @@
+.kaggle_pull/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+tests/
+pytest.ini
+
+data/*
+!data/README.md
+models/
+results/*
+!results/.gitkeep

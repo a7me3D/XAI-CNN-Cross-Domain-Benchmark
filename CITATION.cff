@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Post-hoc XAI Benchmark for CNN Image Classifiers"
+abstract: "Quantitative and qualitative comparison of 10 post-hoc explanation methods on near-identical CNN models trained on EuroSAT multispectral, chest X-ray pneumonia and PlantVillage leaf-disease images."
+authors:
+  - family-names: Jbeli
+    given-names: Ahmed
+repository-code: "https://github.com/a7me3D/XAI-CNN-Cross-Domain-Benchmark"
+url: "https://github.com/a7me3D/XAI-CNN-Cross-Domain-Benchmark"
+license: MIT
+version: 1.0.0
+date-released: 2026-09-23
+keywords:
+  - explainable AI
+  - XAI
+  - convolutional neural networks
+  - image classification
+  - benchmark

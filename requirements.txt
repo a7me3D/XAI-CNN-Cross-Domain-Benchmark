@@ -1,0 +1,15 @@
+tensorflow==2.21.0
+keras==3.15.1
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+scikit-image==0.25.2
+matplotlib==3.10.8
+seaborn==0.13.2
+pillow==11.3.0
+rasterio==1.5.1
+tqdm==4.67.1
+shap==0.52.0
+lime==0.2.0.1
+tf-keras-vis==0.8.7

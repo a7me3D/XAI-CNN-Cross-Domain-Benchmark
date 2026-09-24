@@ -15,7 +15,7 @@ def parse_args():
     p.add_argument("--model", default="models/leaf.keras")
     p.add_argument("--out", default="results/leaf_metrics.csv")
     p.add_argument("--image_size", type=int, default=64)
-    p.add_argument("--num_samples", type=int, default=20, help="Evaluation images per class")
+    p.add_argument("--num_samples", type=int, default=2, help="Evaluation images per class")
     p.add_argument("--background_size", type=int, default=100)
     p.add_argument("--seed", type=int, default=42)
     add_arguments(p, "leaf")

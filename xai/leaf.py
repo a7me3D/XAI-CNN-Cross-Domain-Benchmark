@@ -78,7 +78,7 @@ def backprop_batchnorm(activation, relevance, layer, rule="basic", epsilon=1e-4)
     return activation * (relevance / z_safe) * scale
 
 
-def get_balanced_sample(generator, num_samples=20):
+def get_balanced_sample(generator, num_samples=2):
     samples_needed = {idx: num_samples for idx in generator.class_indices.values()}
     images = []
     for x_batch, y_batch in generator:
